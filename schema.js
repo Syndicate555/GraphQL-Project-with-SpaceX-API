@@ -18,3 +18,5 @@ const LaunchType = new GraphQLObjectType({
     rocket: { type: RocketType },
   }),
 });
+
+// Rocket Type
