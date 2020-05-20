@@ -6,6 +6,7 @@ const {
   GraphQLString,
   GraphQLBoolean,
   GraphQLList,
+  GraphQLSchema,
 } = require("graphql");
 
 // Launch Type
@@ -46,4 +47,8 @@ const RootQuery = new GraphQLObjectType({
       },
     },
   },
+});
+
+module.exports = new GraphQLSchema({
+  query: RootQuery,
 });
