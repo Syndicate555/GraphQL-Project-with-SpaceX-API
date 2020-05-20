@@ -13,4 +13,4 @@ app.use(
 
 const PORT = process.env.PORT || 5000;
 
-app.listen(4000);
+app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
