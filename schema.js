@@ -1,4 +1,9 @@
-const { GraphQLObjectType, GraphQLInt, GraphQLString } = require("graphql");
+const {
+  GraphQLObjectType,
+  GraphQLInt,
+  GraphQLString,
+  GraphQLBoolean,
+} = require("graphql");
 
 // Launch Type
 
@@ -9,7 +14,7 @@ const LaunchType = new GraphQLObjectType({
     mission_name: { type: GraphQLString },
     launch_year: { type: GraphQLString },
     launch_date_local: { type: GraphQLString },
-    flight_number: { type: GraphQLInt },
+    launch_success: { type: GraphQLBoolean },
     flight_number: { type: GraphQLInt },
   }),
 });
