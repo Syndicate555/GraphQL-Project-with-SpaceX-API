@@ -1,4 +1,4 @@
-const { GraphQLObjectType, GraphQLInt } = require("graphql");
+const { GraphQLObjectType, GraphQLInt, GraphQLString } = require("graphql");
 
 // Launch Type
 
