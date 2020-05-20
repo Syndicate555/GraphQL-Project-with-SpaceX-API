@@ -1,0 +1,19 @@
+{
+  "name": "graphql-project-with-spacex-api",
+  "version": "1.0.0",
+  "description": "App that tracks all the spaceX launch programs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Syndicate555/GraphQL-Project-with-SpaceX-API.git"
+  },
+  "author": "Saffat Aziz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Syndicate555/GraphQL-Project-with-SpaceX-API/issues"
+  },
+  "homepage": "https://github.com/Syndicate555/GraphQL-Project-with-SpaceX-API#readme"
+}
