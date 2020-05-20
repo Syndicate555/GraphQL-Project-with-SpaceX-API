@@ -46,6 +46,10 @@ const RootQuery = new GraphQLObjectType({
           .then((res) => res.data);
       },
     },
+
+    launch: {
+      type: LaunchType,
+    },
   },
 });
 
