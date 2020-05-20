@@ -29,3 +29,11 @@ const RocketType = new GraphQLObjectType({
     rocket_type: { type: GraphQLString },
   }),
 });
+
+// Root Query
+const RootQuery = new GraphQLObjectType({
+  name: "RootQueryType",
+  fields: {
+    launches: {},
+  },
+});
